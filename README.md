@@ -3,8 +3,8 @@
 100 Prisioners 📦📦📦💯⛓️⛓️⛓️
 =============================
 
-[![en](https://img.shields.io/badge/lang-en-color.svg)](#english-versionl)
-[![es](https://img.shields.io/badge/lang-es-color.svg)](#versión-en-español)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](#english-versionl)
+[![es](https://img.shields.io/badge/lang-es-blue.svg)](#versión-en-español)
 
 
 English Version
