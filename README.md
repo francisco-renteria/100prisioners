@@ -34,7 +34,7 @@ This application allows you to visualize this problem and its solution interacti
 
 I recommend a video from the Veritasium channel that explains the solution in a simple way.
 
-[![Veritasium](https://img.youtube.com/vi/iSNsgj1OCLA/0.jpg)](https://www.youtube.com/watch?v=iSNsgj1OCLA)
+[![Veritasium](https://i.ytimg.com/vi_webp/ksasmB0YPzw/sddefault.webp)](https://www.youtube.com/watch?v=iSNsgj1OCLA)
 
 I hope you enjoy exploring this application as much as I enjoyed creating it.
 
@@ -67,7 +67,7 @@ Esta aplicación permite visualizar este problema y su solución de manera inter
 
 Te recomiendo un video del canal Veritasium, donde explica de manera sencilla la solución.
 
-[![Veritasium](https://img.youtube.com/vi/ksasmB0YPzw/0.jpg)](https://www.youtube.com/watch?v=ksasmB0YPzw)
+[![Veritasium](https://i.ytimg.com/vi_webp/ksasmB0YPzw/sddefault.webp)](https://www.youtube.com/watch?v=ksasmB0YPzw)
 
 Espero que disfrutes explorando esta aplicación tanto como yo disfruté creándola. Para más detalles o comentarios, no dudes en contactarme.
 
