@@ -89,7 +89,7 @@ const About = () => {
               </Typography>
               <br></br>
               <Typography variant="body1">
-                Te recomiendo un video del canal Versatium, donde explica de
+                Te recomiendo un video del canal Veritasium, donde explica de
                 manera sencilla la solución.
               </Typography>
               <br></br>
