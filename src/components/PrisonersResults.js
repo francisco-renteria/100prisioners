@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
-import RenderIfVisible from 'react-render-if-visible';
-import Node from './Node';
+import React, { useState } from "react";
+import RenderIfVisible from "react-render-if-visible";
+import Node from "./Node";
+
+import { Button } from "@mui/material";
 
 const PrisonerResults = ({ prisonersResults, nodes, isCircular, setOpen }) => {
   const [intermediateNodesState, setIntermediateNodesState] = useState(
@@ -19,12 +21,21 @@ const PrisonerResults = ({ prisonersResults, nodes, isCircular, setOpen }) => {
     <div>
       {prisonersResults.map((result, index) => (
         <div key={index} className="prisoner-result">
-          <h2>Prisionero {result.prisoner + 1}:</h2>
-          {result.openedBoxes.length > 2 && (
-            <button onClick={() => toggleIntermediateNodes(index)}>
-              {intermediateNodesState[index] ? 'Ocultar nodos' : 'Mostrar nodos'}
-            </button>
-          )}
+          <h2>
+            Prisionero {result.prisoner + 1}:
+            {result.openedBoxes.length > 2 && (
+              <Button
+                color="alternative"
+                variant="contained"
+                style={{padding:0}}
+                onClick={() => toggleIntermediateNodes(index)}
+              >
+                {intermediateNodesState[index]
+                  ? "Ocultar nodos"
+                  : "Mostrar nodos"}
+              </Button>
+            )}
+          </h2>
           <div className="nodes-container">
             {result.openedBoxes.map((box, idx) => {
               if (
@@ -46,7 +57,9 @@ const PrisonerResults = ({ prisonersResults, nodes, isCircular, setOpen }) => {
                       isSuccess={
                         result.found && nodes[box].pointer === result.prisoner
                       }
-                      isFailure={!result.found && result.openedBoxes.includes(box)}
+                      isFailure={
+                        !result.found && result.openedBoxes.includes(box)
+                      }
                     />
                   </RenderIfVisible>
                 );

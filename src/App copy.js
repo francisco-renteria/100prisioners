@@ -31,7 +31,7 @@ const App = () => {
     <>
       <div className="App">
         <h1>Problema de los 100 Prisioneros</h1>
-        {circular && <button onClick={reset}>Nueva Ronda</button>}
+        {circular && <Button onClick={reset}>Nueva Ronda</Button>}
         <LinkedList
           nodes={nodes}
           isCircular={true}

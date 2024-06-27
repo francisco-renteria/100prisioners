@@ -8,7 +8,7 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuIcon from "@mui/icons-material/Menu";
-import TemporaryDrawer from "./TemporaryDrawer";
+import TemporaryDrawer from "./TemporaryDrawer.js";
 import { Home, Info } from "@mui/icons-material";
 const pages = [
   ["Inicio", "/", <Home />],
@@ -41,7 +41,7 @@ function ResponsiveAppBar() {
               textDecoration: "none",
             }}
           >
-            TMDB2EMOJIS
+            100 PRISIONEROS
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -79,7 +79,7 @@ function ResponsiveAppBar() {
               textDecoration: "none",
             }}
           >
-            TMDB2EMOJIS
+            100 PRISIONEROS
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
